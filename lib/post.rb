@@ -7,6 +7,7 @@ class Post
   end
 
   def author_name
+    binding.pry
     if self.author == nil
       nil
     else
